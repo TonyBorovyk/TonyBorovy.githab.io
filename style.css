@@ -1,7 +1,8 @@
 
 
+/*Srart стилізація*/
 .products{
-    padding: 30px 0;
+    padding: 30px;
     background: white;
 }
 
@@ -71,44 +72,9 @@ transition: .5s;
 width: 80px;
 }
 
-.ul_drisnia{
-    list-style: none;
-    position: fixed;
-    top: 70%;
-    right: 2%;
-    justify-items: right;
-    row-gap: 10px;
-    display: grid;
-    grid-template-columns: auto;
-}
-.li_drisnia{
-    padding: 8px;
-    border-radius: 5px;
-    background-color: rgb(247, 85, 85);
-    color: black;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-}
-.li_drisnia a div{
-    padding-left: 0;
-    font-size: 0;
-    transition: 1s;
-}
 
-.li_drisnia a {
 
-    color: black;
-    justify-items: center;
-    font-size: 24px;
-    align-items: center;
-    display: grid;
-    grid-template-columns: auto auto;
-}
-.li_drisnia a:hover div{
-    padding-left: 5px;
-    font-size: 24px;
-}
-
-    .rsservice {
+.rsservice {
     animation: 5s infinite moving;
     transition: all 2.5s ease;
     animation-timing-function: linear;
@@ -136,7 +102,7 @@ width: 80px;
 body {
     font-family: 'Open Sans', sans-serif;
 }
-
+/*Головна*/
 .navbar {
 font-size: 18px;
 padding-bottom: 10px;
@@ -166,13 +132,6 @@ margin-top: 10px;
 margin-left: 20px;
 }
 
-.navbar-toggle {
-position: absolute;
-top: 10px;
-right: 20px;
-cursor: pointer;
-font-size: 24px;
-}
 
 .active {
 display: block;
@@ -246,7 +205,7 @@ width: 100%;
 }
 .imgbg{
 width: 250%;
-z-index: -1;
+
 position: fixed;
 left: -50%;
 top:0;
@@ -261,10 +220,12 @@ left: -10%;
 top: 0;
 }
 }
+/*Стилізація картинки головної і меню(головна)*/
 .vtyptext{
 display: grid;
 justify-items: center;
 }
+/*Текст нижче порше*/
 .rsservice{
 margin-top: 25%;
 letter-spacing: 0.4rem;
@@ -297,8 +258,8 @@ font-size:1rem;
 text-shadow: 3px 3px 3px #000;
 margin-bottom:25%;
 }
-
-
+/*Налаштовує(оптимізує) розмір картинок ,текстів,анімацій
+@media применяется м для формирования одного стилевого файла*/
 @media (min-width:900px) {
 .rsservice{
 margin-top: 20%;}
@@ -327,7 +288,7 @@ font-size:1.7rem;
 }
 
 }
-
+/*Налаштування розміру елементів відносно розміру сторінки*/
 @media (min-width:1300px) {
 
 .imgbg{
@@ -382,12 +343,7 @@ font-size:1.7rem;
 	
 }
 
-.whatwedo{
-	background-color: white;
-	display: grid;
-	grid-template-columns: 1fr;
-	justify-items: center;
-}
+
 .whatwedostart{
 	padding-top: 100px;
 	width: auto;
@@ -426,33 +382,6 @@ a{
 }
 
 
-
-
-
-.bluelinefooter{
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		padding-right: 12.5%;
-		padding-left: 12.5%;
-		background-color: #1eb0bc;
-		padding-top: 10px;
-		padding-bottom: 10px;
-		    font-weight: 700;
-    font-size: 16px;
-		color: white;
-
-	}
-	.freemasteer{
-		justify-self: end;
-	}
-
-
-	
-	.contacti{
-		font-size: 1.3rem;
-		display: grid;
-		grid-row-gap: 0.5rem;
-	}
 	
 	.fa{
 		font-size: 2rem;
@@ -655,19 +584,4 @@ padding-bottom: 5px;
     display: block;
     padding: 10px;
     width: 150px;
-}
-
-#sticky-buttons:hover span {
-    /*display: block;*/
-}
-
-/*End Three Buttons on right*/
-
-/*Begin Promo Section*/
-#promo img {
-    object-position: center;
-    object-fit: cover;
-    max-height: 100vh;
-    min-height: 450px;
-    width: 100%;
 }
