@@ -1,1 +1,1 @@
-https://github.com/TonyBorovyk/TonyBorovyk.githab.io/blob/main/valitation.png
+![alt text](https://github.com/TonyBorovyk/TonyBorovyk.githab.io/blob/main/valitation.png)
