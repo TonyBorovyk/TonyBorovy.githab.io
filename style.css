@@ -78,8 +78,7 @@ width: 80px;
 
 .rsservice {
     animation: 5s infinite moving;
-    transition: all 2.5s ease;
-    animation-timing-function: linear;/*плавний переход*/
+    animation-timing-function: linear;                                /*плавний переход*/
 }
 
 
