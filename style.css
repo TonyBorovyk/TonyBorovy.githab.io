@@ -24,14 +24,14 @@ flex-wrap: wrap;
 display: grid;
 row-gap: 10px;
 }
-
+/*відступ між машиою і текстом*/
 .carCardShell {
 height: 140px;
 }
 
 .carCard img {
 justify-self: center;
-max-width: 100%;
+max-width: 1000%;
 max-height: 140px;
 }
 
@@ -77,11 +77,11 @@ width: 80px;
 .rsservice {
     animation: 5s infinite moving;
     transition: all 2.5s ease;
-    animation-timing-function: linear;
+    animation-timing-function: linear;/*плавний переход*/
 }
 
 
-
+/*анімація тексту porshe*/
 @keyframes moving {
     0% {
         margin-left: -100px;
@@ -240,6 +240,7 @@ padding-top: 8px;
 padding-bottom: 8px;
 margin-bottom: 10px;
 }
+/*текс купуй на*/
 .pchelp{
 text-shadow: 1.3px 1.3px 1.3px rgba(0,0,0,.9);
 text-align: center;
@@ -315,6 +316,10 @@ font-size:1.7rem;
 		.imgaboutus{
             max-width: 100%;
 			width: 400px;
+             background-color: #91bbfc; 
+ border: 3px solid #121212;
+ transition-property: all;
+ transition-duration: .8s
 		}
 		.aaaaa{
 			font-weight: 700;
@@ -336,6 +341,7 @@ font-size:1.7rem;
 @media screen and (max-width: 800px){
 	.imgaboutus{
 			width: 280px;
+          
 		}
 }
 .buttonn{
@@ -373,8 +379,8 @@ color: #2b2b2b;
     padding-top: 15px;
     padding-bottom: 15px;
     margin-bottom: 6px;
-    color: white !important;
-    transition: 1s;
+    color: white ;
+    transition: 1s;/*час зміни кольору*/
 }
 .pathlay:hover {
     background: #ffbaba;
@@ -499,7 +505,7 @@ padding-bottom: 5px;
 }
 
 .p1{
-	padding-left: 0 !important;
+	padding-left: 0 ;
 }
 }
 @media screen and (max-width: 800px){
@@ -545,7 +551,7 @@ padding-bottom: 5px;
 }
 
 .sticky-button {
-    position: relative;
+    position: sticky;
     box-sizing: border-box;
     padding-left: 12px;
     padding-right: 18px;
@@ -588,5 +594,10 @@ padding-bottom: 5px;
     width: 150px;
 }
 
-
+.imgaboutus:hover {
+ 
+ border-width: 6px;
+ border-color: #776666;
+ border-radius: 10px; 
+}
 
